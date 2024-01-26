@@ -1,0 +1,175 @@
+12:50:26:127 [05248] | INFO  | Initializing crosire's ReShade version '5.1.0.1453' (64-bit) loaded from "C:\Users\Secret322\Desktop\GZDoom\OPENGL32.DLL" into "C:\Users\Secret322\Desktop\GZDoom\gzdoom.exe" ...
+12:50:26:151 [05248] | INFO  | Registering hooks for "user32.dll" ...
+12:50:26:151 [05248] | INFO  | > Libraries loaded.
+12:50:26:151 [05248] | INFO  | > Found 14 match(es). Installing ...
+12:50:26:175 [05248] | INFO  | Registering hooks for "ws2_32.dll" ...
+12:50:26:175 [05248] | INFO  | > Libraries loaded.
+12:50:26:175 [05248] | INFO  | > Found 8 match(es). Installing ...
+12:50:26:199 [05248] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
+12:50:26:199 [05248] | INFO  | > Delayed until first call to an exported function.
+12:50:26:199 [05248] | INFO  | Registering hooks for "vrclient_x64.dll" ...
+12:50:26:199 [05248] | INFO  | > Delayed.
+12:50:26:199 [05248] | INFO  | Initialized.
+12:50:26:222 [05248] | INFO  | Redirecting wglChoosePixelFormat(hdc = FFFFFFFF860115A6, ppfd = 0000006E704FE7F0) ...
+12:50:26:223 [05248] | INFO  | > Dumping pixel format descriptor:
+12:50:26:223 [05248] | INFO  |   +-----------------------------------------+-----------------------------------------+
+12:50:26:223 [05248] | INFO  |   | Name                                    | Value                                   |
+12:50:26:223 [05248] | INFO  |   +-----------------------------------------+-----------------------------------------+
+12:50:26:223 [05248] | INFO  |   | Flags                                   | 0x25                                    |
+12:50:26:223 [05248] | INFO  |   | ColorBits                               | 32                                      |
+12:50:26:223 [05248] | INFO  |   | DepthBits                               | 16                                      |
+12:50:26:223 [05248] | INFO  |   | StencilBits                             | 0                                       |
+12:50:26:223 [05248] | INFO  |   +-----------------------------------------+-----------------------------------------+
+12:50:26:224 [05248] | INFO  | Installing export hooks for "C:\Windows\system32\opengl32.dll" ...
+12:50:26:224 [05248] | INFO  | > Found 360 match(es). Installing ...
+12:50:26:266 [05248] | INFO  | > Returning pixel format: 9
+12:50:26:266 [05248] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFF860115A6, iPixelFormat = 9, ppfd = 0000006E704FE7F0) ...
+12:50:26:266 [05248] | INFO  | Redirecting wglCreateContext(hdc = FFFFFFFF860115A6) ...
+12:50:26:266 [05248] | INFO  | > Passing on to wglCreateLayerContext:
+12:50:26:266 [05248] | INFO  | Redirecting wglCreateLayerContext(hdc = FFFFFFFF860115A6, iLayerPlane = 0) ...
+12:50:26:538 [05248] | INFO  | Running on NVIDIA GeForce RTX 3090/PCIe/SSE2 using OpenGL 4.6.0 NVIDIA 536.67
+12:50:26:542 [05248] | INFO  | Redirecting wglDeleteContext(hglrc = 0000000000010000) ...
+12:50:26:547 [05248] | INFO  | Redirecting wglChoosePixelFormatARB(hdc = 000000000A0116B6, piAttribIList = 000001A331CCB590, pfAttribFList = 0000006E704FE718, nMaxFormats = 1, piFormats = 0000006E704FE838, nNumFormats = 0000006E704FE830) ...
+12:50:26:547 [05248] | INFO  | > Dumping attributes:
+12:50:26:547 [05248] | INFO  |   +-----------------------------------------+-----------------------------------------+
+12:50:26:547 [05248] | INFO  |   | Attribute                               | Value                                   |
+12:50:26:547 [05248] | INFO  |   +-----------------------------------------+-----------------------------------------+
+12:50:26:547 [05248] | INFO  |   | WGL_DEPTH_BITS_ARB                      | 24                                      |
+12:50:26:547 [05248] | INFO  |   | WGL_STENCIL_BITS_ARB                    | 8                                       |
+12:50:26:547 [05248] | INFO  |   | WGL_DRAW_TO_WINDOW_ARB                  | TRUE                                    |
+12:50:26:548 [05248] | INFO  |   | WGL_SUPPORT_OPENGL_ARB                  | TRUE                                    |
+12:50:26:548 [05248] | INFO  |   | WGL_DOUBLE_BUFFER_ARB                   | TRUE                                    |
+12:50:26:548 [05248] | INFO  |   | WGL_ACCELERATION_ARB                    | 0x2027                                  |
+12:50:26:548 [05248] | INFO  |   | WGL_RED_BITS_ARB                        | 8                                       |
+12:50:26:548 [05248] | INFO  |   | WGL_GREEN_BITS_ARB                      | 8                                       |
+12:50:26:548 [05248] | INFO  |   | WGL_BLUE_BITS_ARB                       | 8                                       |
+12:50:26:548 [05248] | INFO  |   | WGL_ALPHA_BITS_ARB                      | 8                                       |
+12:50:26:548 [05248] | INFO  |   +-----------------------------------------+-----------------------------------------+
+12:50:26:568 [05248] | INFO  | > Returning pixel format(s): 12
+12:50:26:568 [05248] | INFO  | Redirecting wglSetPixelFormat(hdc = 000000000A0116B6, iPixelFormat = 12, ppfd = 0000000000000000) ...
+12:50:26:568 [05248] | INFO  | Redirecting wglCreateContextAttribsARB(hdc = 000000000A0116B6, hShareContext = 0000000000000000, piAttribList = 0000006E704FE840) ...
+12:50:26:568 [05248] | INFO  | > Requesting core OpenGL context for version 4.6 ...
+12:50:26:569 [05248] | INFO  | Redirecting wglCreateLayerContext(hdc = 000000000A0116B6, iLayerPlane = 0) ...
+12:50:26:571 [05248] | WARN  | Window class style of window 0000000000010E72 is missing 'CS_OWNDC' flag.
+12:50:26:695 [05248] | INFO  | Running on NVIDIA GeForce RTX 3090/PCIe/SSE2 using OpenGL 4.6.0 NVIDIA 536.67
+12:50:27:316 [05248] | INFO  | Redirecting wglCreateContext(hdc = 000000000A0116B6) ...
+12:50:27:316 [05248] | INFO  | > Passing on to wglCreateLayerContext:
+12:50:27:316 [05248] | INFO  | Redirecting wglCreateLayerContext(hdc = 000000000A0116B6, iLayerPlane = 0) ...
+12:50:27:317 [05248] | WARN  | Window class style of window 0000000000010E72 is missing 'CS_OWNDC' flag.
+12:50:27:442 [05248] | INFO  | Running on NVIDIA GeForce RTX 3090/PCIe/SSE2 using OpenGL 4.6.0 NVIDIA 536.67
+12:50:27:457 [25740] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Daltonize.fx".
+12:50:27:457 [26476] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+12:50:27:458 [02508] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\DPX.fx".
+12:50:27:459 [26376] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Cartoon.fx".
+12:50:27:459 [04536] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\CRT.fx".
+12:50:27:459 [02184] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FramerateLimiter.fx".
+12:50:27:460 [12344] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Levels.fx".
+12:50:27:460 [15840] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Technicolor.fx".
+12:50:27:461 [25564] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\SCurve.fx".
+12:50:27:462 [10304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\NormalMap.fx".
+12:50:27:464 [13488] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+12:50:27:465 [24708] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Unsharp.fx".
+12:50:27:465 [19120] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+12:50:27:466 [08372] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+12:50:27:467 [08664] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+12:50:27:467 [25740] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Deband.fx".
+12:50:27:467 [23304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+12:50:27:468 [24820] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+12:50:27:469 [03768] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+12:50:27:469 [26476] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\ArcaneBloom.fx".
+12:50:27:469 [02508] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FakeHDR.fx".
+12:50:27:469 [24828] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\MagicHDR.fx".
+12:50:27:470 [26376] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\CAS.fx".
+12:50:27:470 [04536] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\CRT_Lottes.fx".
+12:50:27:470 [15840] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Technicolor2.fx".
+12:50:27:470 [12344] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\LiftGammaGain.fx".
+12:50:27:470 [25564] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Sepia.fx".
+12:50:27:473 [10304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Nostalgia.fx".
+12:50:27:473 [02184] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FXAA.fx".
+12:50:27:476 [24708] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Vibrance.fx".
+12:50:27:477 [19120] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+12:50:27:478 [24820] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+12:50:27:479 [25740] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\DepthAlpha.fx".
+12:50:27:479 [23304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+12:50:27:480 [26376] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Checkerboard.fx".
+12:50:27:480 [13488] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+12:50:27:480 [26476] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\ArtisticVignette.fx".
+12:50:27:481 [08664] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+12:50:27:481 [02508] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FilmGrain.fx".
+12:50:27:481 [04536] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\CRT_Yee64.fx".
+12:50:27:481 [24828] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\MBMB.fx".
+12:50:27:482 [25564] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Sketch.fx".
+12:50:27:483 [15840] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Tonemap.fx".
+12:50:27:483 [10304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Overlay.fx".
+12:50:27:484 [02184] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\GrainSpread.fx".
+12:50:27:485 [03768] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+12:50:27:487 [12344] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\LiquidLens.fx".
+12:50:27:490 [25740] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\DisplayDepth.fx".
+12:50:27:490 [24820] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+12:50:27:490 [24708] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Vignette.fx".
+12:50:27:492 [26376] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\ChromaticAberration.fx".
+12:50:27:492 [13488] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+12:50:27:492 [19120] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+12:50:27:492 [02508] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Flashlight.fx".
+12:50:27:493 [24828] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\MinimalColorGrading.fx".
+12:50:27:493 [04536] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\CRT_Yeetron.fx".
+12:50:27:493 [26476] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\ASCII.fx".
+12:50:27:494 [23304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+12:50:27:494 [15840] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\TrackingRays.fx".
+12:50:27:495 [08664] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+12:50:27:496 [02184] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\HexLensFlare.fx".
+12:50:27:497 [12344] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\LumaSharpen.fx".
+12:50:27:498 [10304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+12:50:27:499 [03768] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+12:50:27:501 [25564] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\SMAA.fx".
+12:50:27:501 [25740] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Dither.fx".
+12:50:27:501 [24820] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+12:50:27:502 [24708] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\VirtualResolution.fx".
+12:50:27:502 [08372] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+12:50:27:504 [13488] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+12:50:27:504 [02508] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FlexibleCA.fx".
+12:50:27:504 [26376] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\ColorLab.fx".
+12:50:27:506 [24828] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Monochrome.fx".
+12:50:27:507 [26476] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AspectRatioSuite.fx".
+12:50:27:508 [15840] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\UIMask.fx".
+12:50:27:508 [04536] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Cursor.fx".
+12:50:27:509 [02184] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\HQ4X.fx".
+12:50:27:511 [23304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+12:50:27:511 [19120] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+12:50:27:512 [12344] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\LUT.fx".
+12:50:27:517 [10304] | WARN  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+12:50:27:518 [26376] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\ColorMatrix.fx".
+12:50:27:519 [25564] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Splitscreen.fx".
+12:50:27:519 [24820] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+12:50:27:520 [13488] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+12:50:27:520 [26476] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Border.fx".
+12:50:27:521 [02508] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\FocalDOF.fx".
+12:50:27:521 [24708] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\WhitepointFixer.fx".
+12:50:27:522 [08664] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+12:50:27:522 [24828] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\MultiFX.fx".
+12:50:27:523 [03768] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+12:50:27:526 [08372] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+12:50:27:526 [04536] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Curves.fx".
+12:50:27:528 [02184] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\Layer.fx".
+12:50:27:529 [19120] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+12:50:27:532 [15840] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\UnrealLens.fx".
+12:50:27:532 [23304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+12:50:27:533 [10304] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\RetroFog.fx".
+12:50:27:536 [08664] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+12:50:27:537 [24708] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+12:50:27:538 [13488] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+12:50:27:539 [19120] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+12:50:27:539 [24820] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+12:50:27:539 [03768] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+12:50:27:541 [24828] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\NeoBloom.fx".
+12:50:27:541 [08372] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+12:50:27:546 [08372] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+12:50:27:556 [03768] | INFO  | Successfully compiled "C:\Users\Secret322\Desktop\GZDoom\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+12:50:27:657 [05248] | INFO  | Loading image files for textures ...
+12:57:47:659 [05248] | INFO  | Redirecting wglDeleteContext(hglrc = 0000000000020000) ...
+12:57:47:759 [05248] | INFO  | Exiting ...
+12:57:47:759 [05248] | INFO  | Uninstalling 531 hook(s) ...
+12:57:48:795 [05248] | INFO  | Finished exiting.

@@ -1,0 +1,1192 @@
+18:44:34:863 [11268] | INFO  | Initializing crosire's ReShade version '4.9.1.1003' (64-bit) built on '2021-01-09 21:12:36' loaded from "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\OPENGL32.DLL" into "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\gzdoom.exe" ...
+18:44:34:901 [11268] | INFO  | Registering hooks for "user32.dll" ...
+18:44:34:902 [11268] | INFO  | > Libraries loaded.
+18:44:34:903 [11268] | INFO  | > Found 14 match(es). Installing ...
+18:44:34:939 [11268] | INFO  | Registering hooks for "ws2_32.dll" ...
+18:44:34:939 [11268] | INFO  | > Libraries loaded.
+18:44:34:940 [11268] | INFO  | > Found 8 match(es). Installing ...
+18:44:34:977 [11268] | INFO  | Registering hooks for "C:\Windows\system32\d2d1.dll" ...
+18:44:34:986 [11268] | INFO  | > Delayed.
+18:44:34:987 [11268] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
+18:44:34:987 [11268] | INFO  | > Libraries loaded.
+18:44:34:988 [11268] | INFO  | > Found 9 match(es). Installing ...
+18:44:35:029 [11268] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
+18:44:35:035 [11268] | INFO  | > Delayed.
+18:44:35:036 [11268] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
+18:44:35:041 [11268] | INFO  | > Delayed.
+18:44:35:042 [11268] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
+18:44:35:043 [11268] | INFO  | > Libraries loaded.
+18:44:35:044 [11268] | INFO  | > Found 2 match(es). Installing ...
+18:44:35:079 [11268] | INFO  | Registering hooks for "C:\Windows\system32\d3d12.dll" ...
+18:44:35:085 [11268] | INFO  | > Delayed.
+18:44:35:085 [11268] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
+18:44:35:087 [11268] | INFO  | > Libraries loaded.
+18:44:35:088 [11268] | INFO  | > Found 5 match(es). Installing ...
+18:44:35:122 [11268] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
+18:44:35:122 [11268] | INFO  | > Delayed until first call to an exported function.
+18:44:35:123 [11268] | INFO  | Initialized.
+18:44:35:123 [11268] | INFO  | Redirecting wglChoosePixelFormat(hdc = FFFFFFFF8D0116A8, ppfd = 000000462FEFEC60) ...
+18:44:35:125 [11268] | INFO  | > Dumping pixel format descriptor:
+18:44:35:125 [11268] | INFO  |   +-----------------------------------------+-----------------------------------------+
+18:44:35:126 [11268] | INFO  |   | Name                                    | Value                                   |
+18:44:35:126 [11268] | INFO  |   +-----------------------------------------+-----------------------------------------+
+18:44:35:127 [11268] | INFO  |   | Flags                                   | 0x25                                    |
+18:44:35:128 [11268] | INFO  |   | ColorBits                               | 32                                      |
+18:44:35:129 [11268] | INFO  |   | DepthBits                               | 16                                      |
+18:44:35:129 [11268] | INFO  |   | StencilBits                             | 0                                       |
+18:44:35:130 [11268] | INFO  |   +-----------------------------------------+-----------------------------------------+
+18:44:35:140 [11268] | INFO  | Installing export hooks for "C:\Windows\system32\opengl32.dll" ...
+18:44:35:141 [11268] | INFO  | > Found 360 match(es). Installing ...
+18:44:35:245 [11268] | INFO  | > Returning pixel format: 9
+18:44:35:247 [11268] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFF8D0116A8, iPixelFormat = 9, ppfd = 000000462FEFEC60) ...
+18:44:35:248 [11268] | INFO  | Redirecting wglCreateContext(hdc = FFFFFFFF8D0116A8) ...
+18:44:35:249 [11268] | INFO  | > Passing on to wglCreateLayerContext:
+18:44:35:250 [11268] | INFO  | Redirecting wglCreateLayerContext(hdc = FFFFFFFF8D0116A8, iLayerPlane = 0) ...
+18:44:35:639 [11268] | INFO  | Running on NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2 using OpenGL 4.6.0 NVIDIA 471.68
+18:44:35:727 [11268] | INFO  | Redirecting wglDeleteContext(hglrc = 0000000000010000) ...
+18:44:35:780 [11268] | INFO  | Redirecting wglChoosePixelFormatARB(hdc = 00000000300109FE, piAttribIList = 000001FF698DCF90, pfAttribFList = 000000462FEFEC28, nMaxFormats = 1, piFormats = 000000462FEFECA8, nNumFormats = 000000462FEFECA0) ...
+18:44:35:781 [11268] | INFO  | > Dumping attributes:
+18:44:35:782 [11268] | INFO  |   +-----------------------------------------+-----------------------------------------+
+18:44:35:782 [11268] | INFO  |   | Attribute                               | Value                                   |
+18:44:35:783 [11268] | INFO  |   +-----------------------------------------+-----------------------------------------+
+18:44:35:784 [11268] | INFO  |   | WGL_DEPTH_BITS_ARB                      | 24                                      |
+18:44:35:784 [11268] | INFO  |   | WGL_STENCIL_BITS_ARB                    | 8                                       |
+18:44:35:785 [11268] | INFO  |   | WGL_DRAW_TO_WINDOW_ARB                  | TRUE                                    |
+18:44:35:786 [11268] | INFO  |   | WGL_SUPPORT_OPENGL_ARB                  | TRUE                                    |
+18:44:35:786 [11268] | INFO  |   | WGL_DOUBLE_BUFFER_ARB                   | TRUE                                    |
+18:44:35:787 [11268] | INFO  |   | WGL_ACCELERATION_ARB                    | 0x2027                                  |
+18:44:35:788 [11268] | INFO  |   | WGL_RED_BITS_ARB                        | 8                                       |
+18:44:35:832 [11268] | INFO  |   | WGL_GREEN_BITS_ARB                      | 8                                       |
+18:44:35:833 [11268] | INFO  |   | WGL_BLUE_BITS_ARB                       | 8                                       |
+18:44:35:834 [11268] | INFO  |   | WGL_ALPHA_BITS_ARB                      | 8                                       |
+18:44:35:835 [11268] | INFO  |   +-----------------------------------------+-----------------------------------------+
+18:44:35:864 [11268] | INFO  | > Returning pixel format(s): 12
+18:44:35:865 [11268] | INFO  | Redirecting wglSetPixelFormat(hdc = 00000000300109FE, iPixelFormat = 12, ppfd = 0000000000000000) ...
+18:44:35:866 [11268] | INFO  | Redirecting wglCreateContextAttribsARB(hdc = 00000000300109FE, hShareContext = 0000000000000000, piAttribList = 000000462FEFECB0) ...
+18:44:35:867 [11268] | INFO  | > Requesting core OpenGL context for version 4.6 ...
+18:44:35:867 [11268] | INFO  | Redirecting wglCreateLayerContext(hdc = 00000000300109FE, iLayerPlane = 0) ...
+18:44:35:872 [11268] | WARN  | Window class style of window 000000000041101C is missing 'CS_OWNDC' flag.
+18:44:36:079 [11268] | INFO  | Running on NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2 using OpenGL 4.6.0 NVIDIA 471.68
+18:44:36:983 [11268] | INFO  | Resizing runtime 000001FF6961F710 on device context 00000000300109FE to 1920x1080 ...
+18:44:37:001 [11268] | INFO  | Recreated runtime environment on runtime 000001FF6961F710.
+18:44:37:165 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:44:37:214 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:44:37:225 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:44:37:234 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:44:37:256 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:44:37:265 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:44:37:269 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:44:37:281 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:44:37:294 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:44:37:302 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:44:37:313 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:44:37:319 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:44:37:333 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:44:37:334 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:44:37:364 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:44:37:385 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:44:37:472 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:44:37:479 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:44:37:497 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:44:37:508 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:44:37:512 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:44:37:521 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:44:37:549 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:44:37:592 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:44:37:594 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:44:37:619 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:44:37:621 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:44:37:633 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:44:37:642 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:44:37:662 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:44:37:670 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:44:37:686 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:44:37:726 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:44:37:737 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:44:37:745 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:44:37:786 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:44:37:805 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:44:37:813 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:44:37:821 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:44:37:833 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:44:37:861 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:44:37:876 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:44:37:892 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:44:37:903 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:44:37:906 [06200] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:44:37:918 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:44:37:927 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:44:37:927 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:44:37:946 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:44:37:957 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:44:37:964 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:44:37:988 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:44:38:022 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:44:38:030 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:44:38:061 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:44:38:120 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:44:38:130 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:44:38:158 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:44:38:202 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:44:38:226 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:44:38:240 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:44:38:246 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:44:38:255 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:44:38:266 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:44:38:270 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:44:38:291 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:44:38:305 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:44:38:335 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:44:38:358 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:44:38:378 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:44:38:388 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:44:38:389 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:44:38:397 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:44:38:420 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:44:38:436 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:44:38:446 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:44:38:476 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:44:38:486 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:44:38:509 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:44:38:519 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:44:38:528 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:44:38:533 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:44:38:543 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:44:38:548 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:44:38:551 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:44:38:575 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:44:38:584 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:44:38:607 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:44:38:614 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:44:38:617 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:44:38:626 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:44:38:636 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:44:38:646 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:44:38:662 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:44:38:665 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:44:38:672 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:44:38:676 [06200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:44:38:686 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:44:38:695 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:44:38:710 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:44:38:711 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:44:38:746 [06768] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:44:38:757 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:44:38:810 [11568] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx" with warnings:
+For the latest version go https://blueskydefender.github.io/AstrayFX/ or http://www.Depth3D.info ¿(4, 2): preprocessor warning:  ÂT ÂA ÂM ÂP ÂE ÂR ÂE ÂD 
+
+18:44:38:848 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:44:38:882 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:44:38:923 [11568] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:44:38:976 [11268] | INFO  | Loading image files for textures ...
+18:47:19:961 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:47:19:979 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:47:20:003 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:47:20:020 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:47:20:024 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:47:20:025 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:47:20:042 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:47:20:077 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:47:20:087 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:47:20:096 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:47:20:099 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:47:20:101 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:47:20:102 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:47:20:108 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:47:20:114 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:47:20:122 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:47:20:155 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:47:20:175 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:47:20:185 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:47:20:189 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:47:20:195 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:47:20:200 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:47:20:205 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:47:20:210 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:47:20:227 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:47:20:230 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:47:20:241 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:47:20:250 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:47:20:254 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:47:20:260 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:47:20:262 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:47:20:289 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:47:20:339 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:47:20:348 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:47:20:353 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:47:20:364 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:47:20:373 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:47:20:376 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:47:20:378 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:47:20:382 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:47:20:526 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:47:20:535 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:47:20:539 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:47:20:556 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:47:20:571 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:47:20:574 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:47:20:578 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:47:20:580 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:47:20:587 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:47:20:594 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:47:20:599 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:47:20:618 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:47:20:619 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:47:20:646 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:47:20:654 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:47:20:679 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:47:20:686 [11664] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:47:20:691 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:47:20:697 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:47:20:703 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:47:20:708 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:47:20:718 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:47:20:724 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:47:20:728 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:47:20:736 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:47:20:744 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:47:20:754 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:47:20:756 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:47:20:773 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:47:20:799 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:47:20:819 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:47:20:829 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:47:20:834 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:47:20:838 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:47:20:865 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:47:20:870 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:47:20:877 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:47:20:889 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:47:20:894 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:47:20:923 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:47:20:930 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:47:21:044 [08200] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:47:21:044 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:47:21:046 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:47:21:056 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:47:21:073 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:47:21:086 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:47:21:105 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:47:21:117 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:47:21:122 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:47:21:126 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:47:21:135 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:47:21:136 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:47:21:142 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:47:21:161 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:47:21:166 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:47:21:171 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:47:21:177 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:47:21:184 [13236] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx" with warnings:
+For the latest version go https://blueskydefender.github.io/AstrayFX/ or http://www.Depth3D.info ¿(4, 2): preprocessor warning:  ÂT ÂA ÂM ÂP ÂE ÂR ÂE ÂD 
+
+18:47:21:196 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:47:21:220 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:47:21:235 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:47:21:293 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:47:21:375 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:47:21:378 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:47:21:382 [11664] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:47:21:385 [13236] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:47:21:483 [11268] | INFO  | Loading image files for textures ...
+18:47:32:377 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:47:32:386 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:47:32:402 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:47:32:402 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:47:32:411 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:47:32:417 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:47:32:423 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:47:32:425 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:47:32:437 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:47:32:446 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:47:32:449 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:47:32:454 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:47:32:458 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:47:32:469 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:47:32:475 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:47:32:488 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:47:32:491 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:47:32:500 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:47:32:509 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:47:32:518 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:47:32:526 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:47:32:528 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:47:32:536 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:47:32:555 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:47:32:564 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:47:32:569 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:47:32:577 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:47:32:583 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:47:32:587 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:47:32:590 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:47:32:593 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:47:32:603 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:47:32:614 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:47:32:621 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:47:32:628 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:47:32:636 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:47:32:644 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:47:32:646 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:47:32:653 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:47:32:661 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:47:32:669 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:47:32:680 [08876] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:47:32:686 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:47:32:686 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:47:32:694 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:47:32:706 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:47:32:711 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:47:32:719 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:47:32:736 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:47:32:745 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:47:32:752 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:47:32:761 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:47:32:772 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:47:32:772 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:47:32:778 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:47:32:795 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:47:32:799 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:47:32:801 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:47:32:812 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:47:32:820 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:47:32:828 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:47:32:836 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:47:32:849 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:47:32:853 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:47:32:862 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:47:32:870 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:47:32:879 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:47:32:888 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:47:32:899 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:47:32:904 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:47:32:912 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:47:32:922 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:47:32:931 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:47:32:937 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:47:32:945 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:47:32:952 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:47:32:961 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:47:32:969 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:47:32:978 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:47:32:987 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:47:32:995 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:47:33:004 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:47:33:011 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:47:33:020 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:47:33:029 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:47:33:033 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:47:33:046 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:47:33:054 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:47:33:066 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:47:33:070 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:47:33:082 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:47:33:090 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:47:33:095 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:47:33:104 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:47:33:114 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:47:33:124 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:47:33:128 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:47:33:136 [08876] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:47:33:143 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:47:33:145 [07828] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:47:33:158 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:47:33:189 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:47:33:205 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:47:33:233 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:47:33:250 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:47:33:258 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:47:33:260 [12320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:47:33:310 [11268] | INFO  | Loading image files for textures ...
+18:50:46:822 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:50:46:832 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:50:46:840 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:50:46:855 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:50:46:865 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:50:46:874 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:50:46:878 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:50:46:891 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:50:46:896 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:50:46:903 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:50:46:909 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:50:46:913 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:50:46:926 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:50:46:934 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:50:46:938 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:50:46:947 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:50:46:954 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:50:46:957 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:50:46:963 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:50:46:965 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:50:46:981 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:50:46:982 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:50:46:997 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:50:46:998 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:50:47:009 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:50:47:016 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:50:47:017 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:50:47:023 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:50:47:036 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:50:47:036 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:50:47:040 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:50:47:047 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:50:47:050 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:50:47:057 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:50:47:067 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:50:47:074 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:50:47:084 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:50:47:090 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:50:47:098 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:50:47:106 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:50:47:116 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:50:47:124 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:50:47:132 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:50:47:142 [02116] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:50:47:148 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:50:47:157 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:50:47:170 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:50:47:173 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:50:47:182 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:50:47:191 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:50:47:199 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:50:47:207 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:50:47:218 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:50:47:219 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:50:47:224 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:50:47:242 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:50:47:246 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:50:47:248 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:50:47:257 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:50:47:266 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:50:47:274 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:50:47:282 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:50:47:295 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:50:47:299 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:50:47:308 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:50:47:316 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:50:47:325 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:50:47:333 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:50:47:344 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:50:47:349 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:50:47:357 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:50:47:367 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:50:47:377 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:50:47:382 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:50:47:390 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:50:47:399 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:50:47:407 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:50:47:416 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:50:47:424 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:50:47:433 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:50:47:441 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:50:47:454 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:50:47:460 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:50:47:470 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:50:47:474 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:50:47:486 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:50:47:491 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:50:47:501 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:50:47:508 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:50:47:514 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:50:47:520 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:50:47:528 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:50:47:536 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:50:47:550 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:50:47:559 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:50:47:563 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:50:47:578 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:50:47:583 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:50:47:590 [02116] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:50:47:601 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:50:47:614 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:50:47:633 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:50:47:645 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:50:47:650 [12988] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:50:47:663 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:50:47:678 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:50:47:693 [07420] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:50:47:725 [11268] | INFO  | Loading image files for textures ...
+18:50:56:080 [11268] | INFO  | Loading image files for textures ...
+18:50:58:708 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:50:58:710 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:50:58:712 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:50:58:712 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:50:58:713 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:50:58:714 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:50:58:715 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:50:58:716 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:50:58:717 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:50:58:718 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:50:58:720 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:50:58:721 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:50:58:722 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:50:58:722 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:50:58:723 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:50:58:724 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:50:58:725 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:50:58:726 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:50:58:727 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:50:58:728 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:50:58:729 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:50:58:730 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:50:58:730 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:50:58:731 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:50:58:733 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:50:58:734 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:50:58:736 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:50:58:736 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:50:58:738 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:50:58:740 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:50:58:740 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:50:58:743 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:50:58:743 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:50:58:743 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:50:58:747 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:50:58:747 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:50:58:747 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:50:58:750 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:50:58:750 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:50:58:751 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:50:58:752 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:50:58:754 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:50:58:754 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:50:58:757 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:50:58:757 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:50:58:759 [13836] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:50:58:760 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:50:58:761 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:50:58:763 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:50:58:763 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:50:58:764 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:50:58:765 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:50:58:765 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:50:58:767 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:50:58:768 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:50:58:769 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:50:58:770 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:50:58:772 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:50:58:773 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:50:58:774 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:50:58:776 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:50:58:776 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:50:58:778 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:50:58:779 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:50:58:780 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:50:58:780 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:50:58:782 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:50:58:782 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:50:58:782 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:50:58:785 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:50:58:785 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:50:58:786 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:50:58:788 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:50:58:788 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:50:58:789 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:50:58:791 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:50:58:791 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:50:58:792 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:50:58:792 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:50:58:795 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:50:58:797 [07928] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:50:58:797 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:50:58:797 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:50:58:801 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:50:58:802 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:50:58:803 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:50:58:805 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:50:58:805 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:50:58:807 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:50:58:808 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:50:58:810 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:50:58:814 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:50:58:815 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:50:58:818 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:50:58:820 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:50:58:821 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:50:58:826 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:50:58:827 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:50:58:831 [13836] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:50:58:833 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:50:58:840 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:50:58:858 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:50:58:862 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:50:58:886 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:50:58:892 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:50:58:899 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:50:58:901 [13052] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:50:58:952 [11268] | INFO  | Loading image files for textures ...
+18:51:24:599 [11268] | INFO  | Loading image files for textures ...
+18:51:32:128 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:51:32:131 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:51:32:140 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:51:32:155 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:51:32:168 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:51:32:179 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:51:32:181 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:51:32:189 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:51:32:196 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:51:32:215 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:51:32:223 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:51:32:232 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:51:32:240 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:51:32:248 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:51:32:264 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:51:32:273 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:51:32:286 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:51:32:293 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:51:32:298 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:51:32:306 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:51:32:315 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:51:32:323 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:51:32:332 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:51:32:344 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:51:32:348 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:51:32:357 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:51:32:365 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:51:32:374 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:51:32:382 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:51:32:393 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:51:32:398 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:51:32:408 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:51:32:417 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:51:32:428 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:51:32:432 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:51:32:447 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:51:32:449 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:51:32:461 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:51:32:465 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:51:32:474 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:51:32:483 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:51:32:490 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:51:32:501 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:51:32:507 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:51:32:518 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:51:32:524 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:51:32:531 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:51:32:541 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:51:32:549 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:51:32:558 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:51:32:559 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:51:32:568 [14108] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:51:32:574 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:51:32:583 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:51:32:587 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:51:32:591 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:51:32:599 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:51:32:609 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:51:32:619 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:51:32:627 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:51:32:635 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:51:32:643 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:51:32:652 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:51:32:664 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:51:32:669 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:51:32:677 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:51:32:684 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:51:32:686 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:51:32:861 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:51:32:877 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:51:32:882 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:51:33:157 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:51:33:160 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:51:33:162 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:51:33:172 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:51:33:177 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:51:33:182 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:51:33:187 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:51:33:194 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:51:33:199 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:51:33:204 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:51:33:217 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:51:33:226 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:51:33:241 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:51:33:249 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:51:33:253 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:51:33:254 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:51:33:263 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:51:33:271 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:51:33:283 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:51:33:295 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:51:33:308 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:51:33:308 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:51:33:312 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:51:33:326 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:51:33:329 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:51:33:341 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:51:33:345 [08524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:51:33:354 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:51:33:363 [04156] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:51:33:375 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:51:33:388 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:51:33:397 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:51:33:407 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:51:33:423 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:51:33:441 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:51:33:458 [14108] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:51:33:537 [11268] | INFO  | Loading image files for textures ...
+18:51:57:791 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:51:57:793 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:51:57:794 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:51:57:817 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:51:57:818 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:51:57:819 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:51:57:820 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:51:57:821 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:51:57:821 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:51:57:825 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:51:57:825 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:51:57:826 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:51:57:827 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:51:57:828 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:51:57:829 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:51:57:829 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:51:57:830 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:51:57:831 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:51:57:832 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:51:57:833 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:51:57:835 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:51:57:835 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:51:57:835 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:51:57:837 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:51:57:839 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:51:57:840 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:51:57:842 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:51:57:843 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:51:57:844 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:51:57:844 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:51:57:846 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:51:57:848 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:51:57:849 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:51:57:850 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:51:57:851 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:51:57:853 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:51:57:853 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:51:57:854 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:51:57:857 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:51:57:857 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:51:57:857 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:51:57:860 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:51:57:862 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:51:57:862 [13912] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:51:57:865 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:51:57:865 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:51:57:866 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:51:57:868 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:51:57:868 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:51:57:869 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:51:57:871 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:51:57:871 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:51:57:872 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:51:57:874 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:51:57:876 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:51:57:876 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:51:57:879 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:51:57:880 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:51:57:881 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:51:57:882 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:51:57:883 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:51:57:884 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:51:57:885 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:51:57:886 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:51:57:887 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:51:57:888 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:51:57:889 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:51:57:890 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:51:57:890 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:51:57:892 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:51:57:892 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:51:57:893 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:51:57:893 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:51:57:896 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:51:57:897 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:51:57:899 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:51:57:899 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:51:57:900 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:51:57:901 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:51:57:903 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:51:57:903 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:51:57:904 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:51:57:905 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:51:57:905 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:51:57:908 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:51:57:908 [14040] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:51:57:910 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:51:57:910 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:51:57:912 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:51:57:913 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:51:57:914 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:51:57:916 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:51:57:920 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:51:57:921 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:51:57:923 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:51:57:927 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:51:57:929 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:51:57:932 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:51:57:933 [13912] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:51:57:939 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:51:57:945 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:51:57:963 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:51:57:967 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:51:57:989 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:51:57:996 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:51:58:001 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:51:58:004 [08088] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:51:58:088 [11268] | INFO  | Loading image files for textures ...
+18:54:16:190 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:54:16:191 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:54:16:193 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:54:16:193 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:54:16:194 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:54:16:196 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:54:16:196 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:54:16:197 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:54:16:198 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:54:16:199 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:54:16:202 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:54:16:202 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:54:16:204 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:54:16:204 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:54:16:205 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:54:16:206 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:54:16:207 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:54:16:207 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:54:16:210 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:54:16:211 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:54:16:212 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:54:16:212 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:54:16:213 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:54:16:214 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:54:16:216 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:54:16:217 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:54:16:217 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:54:16:219 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:54:16:220 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:54:16:223 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:54:16:224 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:54:16:224 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:54:16:226 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:54:16:227 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:54:16:228 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:54:16:229 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:54:16:231 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:54:16:231 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:54:16:232 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:54:16:234 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:54:16:235 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:54:16:237 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:54:16:238 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:54:16:238 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:54:16:240 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:54:16:242 [11984] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:54:16:242 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:54:16:245 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:54:16:245 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:54:16:245 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:54:16:247 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:54:16:248 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:54:16:248 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:54:16:249 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:54:16:252 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:54:16:253 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:54:16:254 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:54:16:255 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:54:16:256 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:54:16:258 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:54:16:260 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:54:16:260 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:54:16:262 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:54:16:263 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:54:16:264 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:54:16:265 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:54:16:265 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:54:16:266 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:54:16:267 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:54:16:268 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:54:16:269 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:54:16:271 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:54:16:271 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:54:16:271 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:54:16:273 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:54:16:274 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:54:16:274 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:54:16:275 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:54:16:277 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:54:16:279 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:54:16:279 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:54:16:279 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:54:16:282 [13524] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:54:16:284 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:54:16:286 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:54:16:286 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:54:16:288 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:54:16:288 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:54:16:291 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:54:16:292 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:54:16:295 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:54:16:298 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:54:16:299 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:54:16:303 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:54:16:305 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:54:16:306 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:54:16:310 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:54:16:311 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:54:16:315 [11984] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:54:16:317 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:54:16:324 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:54:16:342 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:54:16:345 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:54:16:368 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:54:16:375 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:54:16:380 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:54:16:382 [13824] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:54:16:440 [11268] | INFO  | Loading image files for textures ...
+18:56:55:522 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:56:55:524 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:56:55:525 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:56:55:526 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:56:55:526 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:56:55:528 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:56:55:529 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:56:55:529 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:56:55:530 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:56:55:531 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:56:55:557 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:56:55:557 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:56:55:559 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:56:55:559 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:56:55:560 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:56:55:562 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:56:55:562 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:56:55:563 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:56:55:564 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:56:55:565 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:56:55:566 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:56:55:566 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:56:55:567 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:56:55:569 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:56:55:571 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:56:55:572 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:56:55:572 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:56:55:573 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:56:55:574 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:56:55:576 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:56:55:578 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:56:55:579 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:56:55:579 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:56:55:581 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:56:55:582 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:56:55:582 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:56:55:585 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:56:55:586 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:56:55:586 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:56:55:587 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:56:55:588 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:56:55:591 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:56:55:591 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:56:55:593 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:56:55:593 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:56:55:595 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:56:55:597 [12120] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:56:55:598 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:56:55:599 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:56:55:600 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:56:55:600 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:56:55:601 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:56:55:603 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:56:55:604 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:56:55:604 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:56:55:606 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:56:55:607 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:56:55:608 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:56:55:608 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:56:55:610 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:56:55:613 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:56:55:615 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:56:55:615 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:56:55:617 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:56:55:618 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:56:55:618 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:56:55:619 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:56:55:620 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:56:55:621 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:56:55:621 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:56:55:624 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:56:55:625 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:56:55:625 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:56:55:627 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:56:55:627 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:56:55:627 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:56:55:629 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:56:55:630 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:56:55:632 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:56:55:633 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:56:55:634 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:56:55:634 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:56:55:636 [07320] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:56:55:638 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:56:55:638 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:56:55:640 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:56:55:640 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:56:55:642 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:56:55:643 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:56:55:645 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:56:55:648 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:56:55:649 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:56:55:652 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:56:55:655 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:56:55:656 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:56:55:659 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:56:55:661 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:56:55:664 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:56:55:666 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:56:55:668 [12120] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:56:55:674 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:56:55:691 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:56:55:694 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:56:55:717 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:56:55:724 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:56:55:729 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:56:55:732 [01316] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:56:55:806 [11268] | INFO  | Loading image files for textures ...
+18:57:36:023 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+18:57:36:025 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Cinetools_LUT.fx".
+18:57:36:027 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_LUT_Creator.fx".
+18:57:36:028 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiquidLens.fx".
+18:57:36:028 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArcaneBloom.fx".
+18:57:36:030 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LumaSharpen.fx".
+18:57:36:030 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ArtisticVignette.fx".
+18:57:36:031 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Color_Space_Curves.fx".
+18:57:36:032 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LUT.fx".
+18:57:36:033 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ASCII.fx".
+18:57:36:034 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Curved_Levels.fx".
+18:57:36:036 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AspectRatioSuite.fx".
+18:57:36:036 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Filmic_Adaptation.fx".
+18:57:36:038 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Border.fx".
+18:57:36:039 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MagicHDR.fx".
+18:57:36:039 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Levels.fx".
+18:57:36:041 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cartoon.fx".
+18:57:36:041 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MBMB.fx".
+18:57:36:043 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CAS.fx".
+18:57:36:043 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MinimalColorGrading.fx".
+18:57:36:045 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_03_Shadows_Midtones_Highlights.fx".
+18:57:36:047 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Checkerboard.fx".
+18:57:36:047 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Monochrome.fx".
+18:57:36:049 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ChromaticAberration.fx".
+18:57:36:050 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\MultiFX.fx".
+18:57:36:051 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_BlacknWhite.fx".
+18:57:36:051 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorLab.fx".
+18:57:36:053 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\ColorMatrix.fx".
+18:57:36:053 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Balance.fx".
+18:57:36:057 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT.fx".
+18:57:36:057 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NeoBloom.fx".
+18:57:36:058 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Gradients.fx".
+18:57:36:059 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Lottes.fx".
+18:57:36:060 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\NormalMap.fx".
+18:57:36:062 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Isolation.fx".
+18:57:36:062 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yee64.fx".
+18:57:36:064 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Nostalgia.fx".
+18:57:36:065 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\CRT_Yeetron.fx".
+18:57:36:065 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Color_Temperature.fx".
+18:57:36:067 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Overlay.fx".
+18:57:36:067 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Cursor.fx".
+18:57:36:070 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Curves.fx".
+18:57:36:070 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+18:57:36:072 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Daltonize.fx".
+18:57:36:072 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Contrast_Brightness_Saturation.fx".
+18:57:36:075 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Deband.fx".
+18:57:36:075 [07820] | WARN  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx" with warnings:
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+18:57:36:078 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\RetroFog.fx".
+18:57:36:078 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DepthAlpha.fx".
+18:57:36:079 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Magical_Rectangle.fx".
+18:57:36:080 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SCurve.fx".
+18:57:36:081 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DisplayDepth.fx".
+18:57:36:082 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sepia.fx".
+18:57:36:083 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Saturation_Limit.fx".
+18:57:36:084 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Dither.fx".
+18:57:36:086 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Sketch.fx".
+18:57:36:086 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\DPX.fx".
+18:57:36:088 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color.fx".
+18:57:36:088 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FakeHDR.fx".
+18:57:36:090 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FilmGrain.fx".
+18:57:36:093 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Flashlight.fx".
+18:57:36:093 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\SMAA.fx".
+18:57:36:095 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FlexibleCA.fx".
+18:57:36:096 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Splitscreen.fx".
+18:57:36:097 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Selective_Color_v2.fx".
+18:57:36:098 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FocalDOF.fx".
+18:57:36:098 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor.fx".
+18:57:36:100 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_04_Technicolor.fx".
+18:57:36:100 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FramerateLimiter.fx".
+18:57:36:100 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Technicolor2.fx".
+18:57:36:104 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Tonemap.fx".
+18:57:36:104 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_05_Sharpening.fx".
+18:57:36:106 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\FXAA.fx".
+18:57:36:107 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\TrackingRays.fx".
+18:57:36:107 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Chromatic_Aberration.fx".
+18:57:36:108 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\GrainSpread.fx".
+18:57:36:109 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UIMask.fx".
+18:57:36:110 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\HexLensFlare.fx".
+18:57:36:112 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Depth_Slicer.fx".
+18:57:36:112 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Layer.fx".
+18:57:36:114 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Levels.fx".
+18:57:36:116 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\UnrealLens.fx".
+18:57:36:116 [08348] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\LiftGammaGain.fx".
+18:57:36:117 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Film_Grain.fx".
+18:57:36:119 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Unsharp.fx".
+18:57:36:119 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Luma_Fade.fx".
+18:57:36:122 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vibrance.fx".
+18:57:36:123 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_06_Posterize_Pixelate.fx".
+18:57:36:124 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\Vignette.fx".
+18:57:36:126 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\VirtualResolution.fx".
+18:57:36:130 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\BloomingHDR.fx".
+18:57:36:274 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\WhitepointFixer.fx".
+18:57:36:276 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01A_RT_Correct_Contrast.fx".
+18:57:36:278 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Clarity.fx".
+18:57:36:281 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01B_RT_Correct_Color.fx".
+18:57:36:283 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Depth_Cues.fx".
+18:57:36:283 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_01_Color_Gamut.fx".
+18:57:36:289 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bloom.fx".
+18:57:36:290 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\DLAA_Plus.fx".
+18:57:36:293 [07820] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\PD80\PD80_02_Bonus_LUT_pack.fx".
+18:57:36:297 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Flair.fx".
+18:57:36:315 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\GloomAO.fx".
+18:57:36:319 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\NFAA.fx".
+18:57:36:341 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\RadiantGI.fx".
+18:57:36:348 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Smart_Sharp.fx".
+18:57:36:353 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Temporal_AA.fx".
+18:57:36:356 [03096] | INFO  | Successfully loaded "C:\Users\Nathan\Desktop\gzdoom-4-7-1-Windows-64bit\reshade-shaders\Shaders\AstrayFX\Trails.fx".
+18:57:36:427 [11268] | INFO  | Loading image files for textures ...
+19:03:26:851 [11268] | INFO  | Redirecting wglDeleteContext(hglrc = 0000000000020000) ...
+19:03:26:862 [11268] | INFO  | Destroyed runtime environment on runtime 000001FF6961F710.
+19:03:27:111 [11268] | INFO  | Exiting ...
+19:03:27:112 [11268] | INFO  | Uninstalling 436 hook(s) ...
+19:03:28:203 [11268] | INFO  | Finished exiting.
